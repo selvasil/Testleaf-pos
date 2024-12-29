@@ -12,7 +12,7 @@ RUN git clone https://github.com/selvasil/Testleaf-pos
 
 # Optionally, specify the branch or commit you want to clone
 CMD cd Testleaf-pos
-RUN git pull
+#RUN git pull
 
 # Install project dependencies in the root directory and api directory
 RUN npm install
